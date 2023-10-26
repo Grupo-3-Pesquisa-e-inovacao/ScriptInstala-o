@@ -4,6 +4,8 @@ echo "Olá, seja bem vindo ao script de instalação Safe Monitor"
 
 echo "Vamos dar início ao processo, relaxe e aguarde o término das configurações"
 
+sudo apt update && sudo apt upgrade -y
+
 sleep 5
 
 java -version
