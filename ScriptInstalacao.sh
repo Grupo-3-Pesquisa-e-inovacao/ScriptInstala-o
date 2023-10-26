@@ -19,10 +19,9 @@ if [$? = 0]
 fi 
 
 cd InstalacaoArquivoJar
-sleep 2
-
 if [$? = 0]
 	then echo "O arquivo .jar já está instalado!"
+		 git pull
 	     echo "Executando"
 		cd API_Monitoramento_Java
 		cd safe-monitor
