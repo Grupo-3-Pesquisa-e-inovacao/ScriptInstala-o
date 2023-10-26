@@ -37,7 +37,7 @@ if [$? = 0]
 		cd safe-monitor
 		cd out
 		cd artifacts
-		cd safe_monitor_jar
+		cd safe_monitor
 		java -jar safe-monitor.jar
 fi
 
